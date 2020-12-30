@@ -66,7 +66,7 @@ class SignUp extends React.Component {
                         name='displayName'
                         value={displayName}
                         label='Display Name'
-                        onChange={this.handelChange}
+                        onChange={this.handleChange}
                         required
                     />
                    
@@ -75,7 +75,7 @@ class SignUp extends React.Component {
                         name='email'
                         value={email}
                         label='Email'
-                        onChange={this.handelChange}
+                        onChange={this.handleChange}
                         required
                     />
                    
@@ -84,7 +84,7 @@ class SignUp extends React.Component {
                         name='password'
                         value={password}
                         label='Password'
-                        onChange={this.handelChange}
+                        onChange={this.handleChange}
                         required
                     />
                     
@@ -93,7 +93,7 @@ class SignUp extends React.Component {
                         name='confirmPassword'
                         value={confirmPassword}
                         label='Confirm Password'
-                        onChange={this.handelChange}
+                        onChange={this.handleChange}
                         required
                     />
                    <CustomButton type='submit'>SIGN UP</CustomButton>
